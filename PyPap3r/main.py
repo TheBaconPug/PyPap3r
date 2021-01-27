@@ -18,7 +18,7 @@ def wallpaper_url(url):
     os.system('/usr/bin/curl -o ~/Documents/' + str(number) + '.png ' + url)
     os.system('clear')
     os.system(changeurl.format('/Users/'+ getpass.getuser() +'/Documents/' + str(number) + '.png'))
-    time.sleep(5)
+    time.sleep(1)
     os.remove('/Users/'+ getpass.getuser() +'/Documents/' + str(number) + '.png')
     
 
