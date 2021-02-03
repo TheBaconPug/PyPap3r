@@ -2,6 +2,8 @@
 
 A python package that can change a mac's wallpaper from a url or file.
 
+[![Downloads](https://pepy.tech/badge/pypap3r)](https://pepy.tech/project/pypap3r)
+
 # Usage
 
 ## Importing the package
